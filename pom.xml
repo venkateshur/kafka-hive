@@ -43,13 +43,7 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.11.12</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-compiler</artifactId>
+            <version>2.12.10</version>
             <scope>compile</scope>
         </dependency>
 
@@ -66,14 +60,14 @@
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <version>3.2.1</version>
+                <version>4.5.6</version>
                 <executions>
                     <execution>
                         <goals>
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                            <scalaCompatVersion>2.11</scalaCompatVersion>
+                            <scalaCompatVersion>2.12</scalaCompatVersion>
                         </configuration>
                     </execution>
                 </executions>
